@@ -1,0 +1,4 @@
+syntax = "proto3";
+package chaos.amm.v1beta1;
+
+option go_package = "github.com/cosmos-builders/chaos/x/amm/types";

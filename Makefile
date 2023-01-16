@@ -186,8 +186,8 @@ proto-gen:
 	@cd proto;\
 	buf generate --template=buf.gen.gogo.yaml;\
 	cd ..;\
-	cp -r github.com/cosmos-builders/chaos/* .;\
-	rm -rf github.com
+	cp ./x/chaos/amm/v1beta1/* ./x/amm/types/
+	rm -rf ./x/chaos/amm/v1beta1
 
 proto-lint:
 	@buf lint proto
