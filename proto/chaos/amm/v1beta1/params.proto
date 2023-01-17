@@ -4,6 +4,7 @@ package chaos.amm.v1beta1;
 import "gogoproto/gogo.proto";
 
 option go_package = "github.com/cosmos-builders/chaos/x/amm/types";
+option (gogoproto.goproto_getters_all) = false;
 
 message Params {
   option (gogoproto.goproto_stringer) = false;
